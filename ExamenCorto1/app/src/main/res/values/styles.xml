@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Button_S" parent = "Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name ="android:gravity">center</item>
+    </style>
+    <style name="Button_F" parent = "Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/blue</item>
+        <item name ="android:gravity">center</item>
+    </style>
+</resources>
