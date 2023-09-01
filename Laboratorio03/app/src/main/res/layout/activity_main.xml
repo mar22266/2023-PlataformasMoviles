@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:background="#2196F3"
+    android:text="Elija la festividad que desea personalizar"
+        android:textAlignment="center"
+    android:textSize="38sp"
+    android:textColor="#0F1010"
+    android:layout_gravity="center"
+    android:layout_marginBottom="60dp"
+    android:fontFamily="arial" />
+
+    <Button
+        android:id="@+id/btnOption1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cumpleaños"
+        android:textSize="24sp"
+        android:backgroundTint="#FF4081"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="sans-serif" />
+
+    <Button
+        android:id="@+id/btnOption2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bodas"
+        android:textSize="24sp"
+        android:backgroundTint="#FF4081"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="sans-serif" />
+
+    <Button
+        android:id="@+id/btnOption3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="San Valentin"
+        android:textSize="24sp"
+        android:backgroundTint="#FF4081"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="sans-serif" />
+
+    <Button
+        android:id="@+id/btnOption4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dia del Padre"
+        android:textSize="24sp"
+        android:backgroundTint="#FF4081"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="sans-serif" />
+
+    <Button
+        android:id="@+id/btnOption5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dia de la Madre "
+        android:textSize="24sp"
+        android:backgroundTint="#FF4081"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="sans-serif" />
+</LinearLayout>

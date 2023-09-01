@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".IMG16ACT"
+    android:background="@drawable/design_4_padre">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personaliza la Imagen"
+        android:background="@color/black"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-light" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su nombre"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellido"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light" />
+
+    <EditText
+        android:id="@+id/etApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su apellido"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mensaje de Felicitación"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light" />
+
+    <EditText
+        android:id="@+id/etMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su mensaje de felicitación"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>
