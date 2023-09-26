@@ -1,0 +1,17 @@
+query para crear base de datos:
+
+CREATE TABLE `loginapp`.`user` (`id` INT NOT NULL AUTO_INCREMENT , `username` VARCHAR(50) NOT NULL , `password` CHAR(32) NOT NULL , `token` TEXT NULL , `token_expiracy` DATE NULL , `nombre` VARCHAR(30) NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+query para insertar objeto en base de datos:
+
+INSERT INTO `user`(`username`, `password`, `token`, `token_expiracy`, `nombre`) VALUES ('maalonso@uvg.edu.gt',MD5("test1234"),null,null,'MOISES ALONSO');
+
+
+Video demostracion programa:
+
+https://www.youtube.com/watch?v=9GNCCwWm38U
+
+Github:
+
+https://github.com/mar22266/2023-PlataformasMoviles.git
