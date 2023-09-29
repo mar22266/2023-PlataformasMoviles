@@ -1,5 +1,6 @@
 package com.example.api
 
+import android.app.ProgressDialog
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -31,6 +32,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun getMeme() {
+        val progres = ProgressDialog(this)
+        progres.setMessage("Loading...")
+        progres.show()
+
         val queue = Volley.newRequestQueue(this)
         val stringRequest = StringRequest(
             Request.Method.GET, url,
@@ -44,8 +49,10 @@ class MainActivity : AppCompatActivity() {
                 binding.memeauthor.text=resoneObject.getString("author")
 
                 Glide.with(this).load(resoneObject.get("url")).into(binding.memeimage)
+                progres.dismiss()
             },
             { error->
+                progres.dismiss()
                 Toast.makeText(this@MainActivity,"${error.localizedMessage}",Toast.LENGTH_SHORT)
                 .show()
             })
