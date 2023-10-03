@@ -1,41 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
     tools:context=".MainActivity">
 
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="300sp"
-        android:text="Bienvenido a la aplicacion de ver Memes"
-        android:textSize="36sp"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:background="#000000"
-        android:padding="16dp"
-        android:gravity="center" />
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        >
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ver memes"
-        android:textColor="#FFFFFF"
-        android:background="@color/black"
-        android:layout_marginTop="24dp"
-        android:textSize="28sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:text="Demo Text"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/tv"/>
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ver memes (elegir cuántos ver a la vez)"
-        android:textColor="#FFFFFF"
-        android:background="@color/black"
-        android:layout_marginTop="24dp"
-        android:textSize="28sp"/>
+    </ScrollView>
 
-</LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

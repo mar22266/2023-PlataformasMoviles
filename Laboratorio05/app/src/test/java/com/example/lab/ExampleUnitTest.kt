@@ -1,4 +1,4 @@
-package com.example.api
+package com.example.lab
 
 import org.junit.Test
 
