@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab10</string>
+    <string name="prefs_file">com.example.Lab10.PREFERENCE_FILE_KEY</string>
+    <string name="default_web_client_id">924380564365-715294km8vnq00uqt3f6331gq1hdij4s.apps.googleusercontent.com</string>
+</resources>
